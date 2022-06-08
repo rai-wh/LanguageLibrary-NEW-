@@ -1,17 +1,20 @@
-LanguageLibrary
+**LanguageLibrary**
 
 An application used to make learning Japanese easier and more fun compared to the flashcards that every other language learning tool provides. It was built with React, Javascript, HTML, and CSS.
 
-Project Status
+**Project Status**
+
 Currently in development. The basic structure of the website is complete but the functionality to save to/view your profile is not done yet.
 
-Project Screen Shots:
+**Project Screenshots:**
+
 ![image](https://i.gyazo.com/bec42c2cb364c12fbb1092831d777757.png)
 ![image](https://i.gyazo.com/13cc3610eccf70f96e708abb2e1483b8.png)
 ![image](https://i.gyazo.com/298f4b2a689d50eddea0d389abebbf5d.png)
 ![image](https://i.gyazo.com/e02c45a245353888c15d9f53810ce729.png)
 
-Installation and Setup Instructions
+**Installation and Setup Instructions**
+
 Clone down this repository. You will need npm installed globally on your machine.
 
 Installation:
@@ -29,6 +32,8 @@ npm start
 To Visit App:
 
 localhost:3000/
+
+**Final Notes**
 
 I created this project for my 2022 Capstone at Nashville Software School, as well as giving myself access to an easier and more fun way to learn the language that I have been studying for about half a year. (Japanese).
 
