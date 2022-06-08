@@ -8,6 +8,8 @@ Currently in development. The basic structure of the website is complete but the
 Project Screen Shots:
 ![image](https://i.gyazo.com/bec42c2cb364c12fbb1092831d777757.png)
 ![image](https://i.gyazo.com/13cc3610eccf70f96e708abb2e1483b8.png)
+![image](https://i.gyazo.com/298f4b2a689d50eddea0d389abebbf5d.png)
+![image](https://i.gyazo.com/e02c45a245353888c15d9f53810ce729.png)
 
 Installation and Setup Instructions
 Clone down this repository. You will need npm installed globally on your machine.
@@ -28,7 +30,6 @@ To Visit App:
 
 localhost:3000/
 
-Reflection
 I created this project for my 2022 Capstone at Nashville Software School, as well as giving myself access to an easier and more fun way to learn the language that I have been studying for about half a year. (Japanese).
 
 I wanted to make a site that not only challenges your brain, but also gives you the satisfaction of actually enjoying the process of learning a language.
