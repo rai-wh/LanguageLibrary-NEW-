@@ -7,7 +7,7 @@ Currently in development. The basic structure of the website is complete but the
 
 Project Screen Shot(s)
 Example:
-![image](https://gyazo.com/bec42c2cb364c12fbb1092831d777757)
+![image](https://i.gyazo.com/bec42c2cb364c12fbb1092831d777757.png)
 ![image](https://i.gyazo.com/13cc3610eccf70f96e708abb2e1483b8.png)
 
 Installation and Setup Instructions
