@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+LanguageLibrary
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application used to make learning Japanese easier and more fun compared to the flashcards that every other language learning tool provides. It was built with React, Javascript, HTML, and CSS.
 
-## Available Scripts
+Project Status
+Currently in development. The basic structure of the website is complete but the functionality to save to/view your profile is not done yet.
 
-In the project directory, you can run:
+Project Screen Shot(s)
+Example:
+![image](https://gyazo.com/bec42c2cb364c12fbb1092831d777757)
+![image](https://i.gyazo.com/13cc3610eccf70f96e708abb2e1483b8.png)
 
-### `npm start`
+Installation and Setup Instructions
+Clone down this repository. You will need npm installed globally on your machine.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Installation:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+npm install
 
-### `npm test`
+To Run Test Suite:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+npm test
 
-### `npm run build`
+To Start Server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+npm start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To Visit App:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+localhost:3000/
 
-### `npm run eject`
+Reflection
+I created this project for my 2022 Capstone at Nashville Software School, as well as giving myself access to an easier and more fun way to learn the language that I have been studying for about half a year. (Japanese).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I wanted to make a site that not only challenges your brain, but also gives you the satisfaction of actually enjoying the process of learning a language.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project definitely threw me a few obstacles, such as learning how to implement an external API to provide the translations for each word/story/sentence, however it was a huge learning experience and definitely propelled not only my language learning skills, but also my coding skills.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The requirement for this project was implementing React to build the webpage, and I couldn't be happier with that decision. Learning and using React has taught me to think outside the box with my code after spending half a year learning Vanilla JS. Learning how to implement hooks and routes has kept my brain craving more and more regarding new tools that I can actively use while coding. All in all, this project contains methods from React, vanilla Javascript, CSS, and HTML to create a working page that can be easily accessible to anyone who tries to access the page.
