@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { useNavigate } from "react-router-dom"
+import Select from 'react-select'
 
 export const StoryForm = () => {
     const navigate = useNavigate()
@@ -7,7 +8,7 @@ export const StoryForm = () => {
         title: "",
         content: "",
         img: "",
-        language: ""
+        difficulty: ""
     })
 
     const handleSaveButtonClick = (event) => {
@@ -16,7 +17,7 @@ export const StoryForm = () => {
             title: story.title,
             content: story.content,
             img: story.img,
-            language: story.language
+            difficulty: story.difficulty
         }
 
         fetch(`http://localhost:8088/stories`, {
@@ -32,6 +33,12 @@ export const StoryForm = () => {
             })
     }
 
+    const difficulties = [
+        { value: "easy", label: "Easy" },
+        { value: "medium", label: "Medium" },
+        { value: "hard", label: "Hard" }
+    ]
+
     return (
         <form className="storyForm">
             <h2 className="storyForm_title">New Story</h2>
@@ -46,7 +53,7 @@ export const StoryForm = () => {
                         value={story.title}
                         onChange={
                             (evt) => {
-                                const copy = {...story}
+                                const copy = { ...story }
                                 copy.title = evt.target.value
                                 updateStory(copy)
                             }
@@ -64,7 +71,7 @@ export const StoryForm = () => {
                         value={story.content}
                         onChange={
                             (evt) => {
-                                const copy = {...story}
+                                const copy = { ...story }
                                 copy.content = evt.target.value
                                 updateStory(copy)
                             }
@@ -82,7 +89,7 @@ export const StoryForm = () => {
                         value={story.img}
                         onChange={
                             (evt) => {
-                                const copy = {...story}
+                                const copy = { ...story }
                                 copy.img = evt.target.value
                                 updateStory(copy)
                             }
@@ -91,17 +98,15 @@ export const StoryForm = () => {
             </fieldset>
             <fieldset>
                 <div className="form-group">
-                    <label htmlFor="name">Picture:</label>
-                    <input
-                        required autoFocus
-                        type="text"
-                        className="form-control"
-                        placeholder="Language used."
-                        value={story.language}
+                    <label htmlFor="name">Difficulty:</label>
+                    <Select
+                        className='storyFormDifficulties'
+                        options={difficulties}
                         onChange={
                             (evt) => {
-                                const copy = {...story}
-                                copy.language = evt.target.value
+                                const copy = { ...story }
+                                console.log(evt.value)
+                                copy.difficulty = evt.value
                                 updateStory(copy)
                             }
                         } />

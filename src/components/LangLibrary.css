@@ -64,3 +64,21 @@ div {
   display: block;
   margin-left: 47%;
 }
+
+.storyDifficulties {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.savedStories {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.userStory {
+  list-style: none;
+  flex: 0 0 33.333333%
+}

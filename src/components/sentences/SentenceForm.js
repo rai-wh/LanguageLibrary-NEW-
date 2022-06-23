@@ -6,7 +6,6 @@ export const SentenceForm = () => {
     const [sentence, updateSentence] = useState({
         title: "",
         content: "",
-        language: ""
     })
 
     const handleSaveButtonClick = (event) => {
@@ -14,7 +13,6 @@ export const SentenceForm = () => {
         const newSentence = {
             title: sentence.title,
             content: sentence.content,
-            language: sentence.language
         }
 
         fetch(`http://localhost:8088/sentences`, {
@@ -64,24 +62,6 @@ export const SentenceForm = () => {
                             (evt) => {
                                 const copy = {...sentence}
                                 copy.content = evt.target.value
-                                updateSentence(copy)
-                            }
-                        } />
-                </div>
-            </fieldset>
-            <fieldset>
-                <div className="form-group">
-                    <label htmlFor="name">Language:</label>
-                    <input
-                        required autoFocus
-                        type="text"
-                        className="form-control"
-                        placeholder="What language is this sentence in?"
-                        value={sentence.language}
-                        onChange={
-                            (evt) => {
-                                const copy = {...sentence}
-                                copy.language = evt.target.value
                                 updateSentence(copy)
                             }
                         } />

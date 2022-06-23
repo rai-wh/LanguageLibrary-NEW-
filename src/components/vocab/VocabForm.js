@@ -69,24 +69,6 @@ export const VocabForm = () => {
                         } />
                 </div>
             </fieldset>
-            <fieldset>
-                <div className="form-group">
-                    <label htmlFor="title">Language:</label>
-                    <input
-                        required autoFocus
-                        type="text"
-                        className="form-control"
-                        placeholder="Which language?"
-                        value={vocab.language}
-                        onChange={
-                            (evt) => {
-                                const copy = {...vocab}
-                                copy.language = evt.target.value
-                                setVocab(copy)
-                            }
-                        } />
-                </div>
-            </fieldset>
             <button onClick={(evt) => handleSaveButtonClick(evt)} className="btn btn-primary">
                 Submit Word
             </button>
