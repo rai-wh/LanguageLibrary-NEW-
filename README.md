@@ -4,7 +4,7 @@ An application used to make learning Japanese easier and more fun compared to th
 
 **Project Status**
 
-Currently in development. The basic structure of the website is complete but the functionality to save to/view your profile is not done yet.
+Finished!
 
 **Project Screenshots:**
 
